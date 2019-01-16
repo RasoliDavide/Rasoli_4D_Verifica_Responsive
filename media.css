@@ -1,0 +1,118 @@
+[class*="col-"] {
+	width: 100%;
+}
+  
+.solotablet{
+	display: none;
+}
+.nocell{
+	display: none;
+}
+.solocell{
+	display:block;
+}
+.dropbtn {
+  background-color: rgb(61, 61, 61, 61);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(61, 61, 61,0.0);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 400px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline;
+  width: 100px;
+  margin: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(107, 107, 107)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(107, 107, 107);
+}
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .solotablet{
+	display: block;
+  }
+  .nocell{
+	display: block;
+  }
+  .solocell{
+	display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .solotablet{
+	display: none;
+  }
+  .nocell{
+	display: block;
+  }
+  .solocell{
+	display: none;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+}
+*
+{
+	
+	box-sizing: border-box;
+}

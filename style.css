@@ -1,0 +1,54 @@
+
+body
+{
+	background-color: black;
+}
+h1.tit
+{
+	background-color: rgb(107,107,107);
+	padding: 20px 5px 20px 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: black;
+  
+}
+li
+{
+	margin: 5px 5px 5px 5px;
+}
+li a {
+  display: block;
+  color: white;
+  background-color: rgb(61,61,61);
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+iframe
+{
+	height: 300px;
+}
+div.d1
+{
+	color: white;
+	background-color: rgb(61,61,61);
+	border: 5px solid black;
+	border-top: 0px;
+	border-radius: 10px;
+	text-align: center;
+}
+div.d2{
+	background-color: rgb(107, 107, 107);
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
